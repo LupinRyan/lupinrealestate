@@ -21,7 +21,7 @@ const Signup = () => {
     e.preventDefault();
 
     // Update the loading hook with a message
-    setLoading("Please wait as we submit your details...")
+    setLoading("Please wait as we submit your deatils to the System...")
 
     try{
         // Create a form data object that will hold the Signup details

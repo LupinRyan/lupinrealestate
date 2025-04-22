@@ -24,7 +24,7 @@ const Signin = () => {
         e.preventDefault();
 
         // (6) Update the loading hook with a message
-        setLoading("Please wait as we confirm your details...")
+        setLoading("Please wait as we confirm your Signin details...")
         try{
             // (10) Create a form data object
             const data = new FormData();

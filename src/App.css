@@ -34,7 +34,7 @@ nav{
   padding: 8px;
   font-size: 15px;
   font-weight: 700;
-  color: rgb(255, 0, 0);
+  color: rgb(0, 68, 255);
   text-decoration: none;
   border-radius: 8px;
 }
@@ -55,7 +55,7 @@ nav{
 }
 
 .footer-background-color{
-  background-color: chocolate;
+  background-color: gray;
 }
 
 .bootom-footer{

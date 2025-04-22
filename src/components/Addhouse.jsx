@@ -20,7 +20,7 @@ const Addhouse = () => {
     e.preventDefault();
 
     // Updating loading hook with a message
-    setLoading("Please wait as your House is being Uploaded...");
+    setLoading("Please wait as your House is being Uploaded..");
     
     try{
       // Create a new form data object

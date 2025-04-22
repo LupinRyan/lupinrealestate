@@ -8,7 +8,7 @@ const Notfound = () => {
       <div class="notfoundcontainer">
       <div class="glitch" data-text="404">404</div>
       <div class="message">Page Not Found.
-      <Link to={'/'}>Go home?</Link></div>
+      <Link to={'/'}>Go Home?</Link></div>
     </div>
     </div>
  

@@ -22,7 +22,7 @@ const Gethouses = () => {
   // Creating a function that will help fetch the different Houses
   const fetchHouses = async () =>{
     // Updating the loading hook with a message
-    setLoading("Please wait as we retrieve your houses...")
+    setLoading("Please wait as we Retrieve your Houses...")
 
     try{
       // Accessing API using Axios

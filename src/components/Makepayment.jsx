@@ -18,7 +18,7 @@ const Makepayment = () => {
     e.preventDefault()
 
     //set the loading hook with a message
-    setLoading("Please wait as we complete the payment")
+    setLoading("Please wait as we complete the payment...")
 
     try{
       // create a new form data object

@@ -28,9 +28,6 @@ const Footer = () => {
                 <img src="images/threads.jpeg" alt="" className="socialspictures"/>
                 </a>
 
-                
-                <p>You can contact us via Gmail: ryanj5245@gmail.com </p>
-                <p>The Customer Service Number is: 0796299307</p>
             </div>
         </section>
         <footer className="text-white text-center p-2 mt-2 bootom-footer">

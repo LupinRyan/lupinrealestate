@@ -28,15 +28,16 @@ const AboutUs = () => {
           More than just agents — we are storytellers of spaces, visionaries of lifestyle, and custodians of refined taste.
         </p>
 
-        <p>At Lupin's Crest, we believe that a home is more than just a building; it's a sanctuary, a reflection of your success, and a place where memories are made. With our deep understanding of the luxury real estate market in Nairobi, combined with our extensive network and meticulous attention to detail, we are dedicated to finding you the perfect property that aligns with your unique lifestyle and aspirations.</p>
+        <p>At Lupin's Crest Luxury Real Estate, we believe that a home is more than just a building; it's a sanctuary, a reflection of your success, and a place where memories are made. With our deep understanding of the luxury real estate market in Nairobi, combined with our extensive network and meticulous attention to detail, we are dedicated to finding you the perfect property that aligns with your unique lifestyle and aspirations.</p>
         
         <p>
             Our core values are built on trust, integrity, and discretion. We understand the importance of confidentiality and strive to provide a service that is both professional and highly personalized. Whether you are looking to buy, sell, or invest in luxury real estate, our experienced team of agents is committed to exceeding your expectations.
           </p>
 
         <p className="mission-quote">
-          <em>“Luxury isn’t just a price point — it’s a promise.”</em>
+          <em>“Luxury isn’t just a price point — it’s a promise. - Assane Lupin”</em>
         </p>
+        <p>You can contact us via Gmail: <a href="https://gmail.com">ryanj5245@gmail.com</a> </p>
         <Footer/>
       </div>
     </section>
