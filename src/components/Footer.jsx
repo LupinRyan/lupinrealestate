@@ -16,8 +16,8 @@ const Footer = () => {
                                 <p className="footer-text">
                                     Lupin's Crest Luxury Real Estate is a distinguished boutique real estate company in Kenya, 
                                     renowned for its commitment to sustainable and luxurious living. Our flagship development, 
-                                    Crest Estate, spans 1,360 acres near Nanyuki, offering panoramic views of Mount Kenya, 
-                                    the Aberdares, and the Lolldaiga Hills.
+                                    Crest Estate, spans 1,360 acres near Nairobi, offering panoramic views of Nairobi City, 
+                                    the Nairobi National Park, and the Maasai Mara National Park.
                                 </p>
                                 <div className="eco-badge">
                                     <i className="fas fa-leaf"></i> Sustainable Living
@@ -77,7 +77,7 @@ const Footer = () => {
                                 <div className="contact-info mt-4">
                                     <p className="footer-text">
                                         <i className="fas fa-map-marker-alt mr-2"></i> 
-                                        Nanyuki, Kenya
+                                        Nairobi, Kenya
                                     </p>
                                     <p className="footer-text">
                                         <i className="fas fa-phone mr-2"></i> 
@@ -102,7 +102,7 @@ const Footer = () => {
                             <p className="copyright-text">
                                 &copy; {new Date().getFullYear()} Lupin's Crest Luxury Real Estate. All rights reserved.
                                 <span className="developer-credit">
-                                    Developed by <strong>Lupin Technologies</strong>
+                                    Developed by <strong>Lupin </strong>
                                 </span>
                             </p>
                         </div>
