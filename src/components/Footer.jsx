@@ -1,41 +1,116 @@
+import React from 'react';
+import './styling/Footer.css'; // Create this CSS file
+
 const Footer = () => {
     return (
-    <div>
-        <section className="row  mt-4 footer-background-color">
-            <div className="col-md-4 text-left text-light">
-                <h5 className="p-2 text-center text-primary">About Us</h5>
-                <p>​Lupin's Crest Luxury Real Estate is a distinguished boutique real estate company in Kenya, renowned for its commitment to sustainable and luxurious living. Their flagship development, Crest Estate, spans 1,360 acres near Nanyuki, offering panoramic views of Mount Kenya, the Aberdares, and the Lolldaiga Hills. The estate is bordered by the Nanyuki River and features undulating terrain with rich red soils and lush greenery. Since its inception in 2016, the estate has undergone extensive ecological restoration, transforming it into a sanctuary where forests teem with wildlife and greenways weave through vibrant grasslands .​</p>
-                <br/>
-            </div>
-            <div className="col-md-4 text-light">
-                <h5 className="p-2 text-center text-primary">Reach Us Out</h5>
-                <input className="form-control" type="email" placeholder="Enter your email"/>
-                <br/>
-                <textarea className="form-control" rows="7" placeholder="Leave a comment"></textarea>
-                <br/>
-                <input type="submit" value="Send Message" className="btn btn-primary"/>
-            </div>
-            <div className="col-md-4 ">
-                <h4 className="text-center text-primary">Connect With Us</h4>
-                <br/>
-                <a href="https://facebook.com">
-                <img src="images/fb.png" alt="" className="socialspictures"/>
-                </a>
-                <a href="https://instagram.com">
-                <img src="images/gram.jpeg" alt="" className="socialspictures"/>
-                </a>
-                <a href="https://threads.com">
-                <img src="images/threads.jpeg" alt="" className="socialspictures"/>
-                </a>
+        <footer className="site-footer">
+            {/* Main Footer Content */}
+            <div className="footer-main">
+                <div className="container">
+                    <div className="row">
+                        {/* About Us Section */}
+                        <div className="col-lg-4 col-md-6 mb-4 mb-md-0">
+                            <div className="footer-about">
+                                <h5 className="footer-title">About Lupin's Crest</h5>
+                                <div className="footer-divider"></div>
+                                <p className="footer-text">
+                                    Lupin's Crest Luxury Real Estate is a distinguished boutique real estate company in Kenya, 
+                                    renowned for its commitment to sustainable and luxurious living. Our flagship development, 
+                                    Crest Estate, spans 1,360 acres near Nanyuki, offering panoramic views of Mount Kenya, 
+                                    the Aberdares, and the Lolldaiga Hills.
+                                </p>
+                                <div className="eco-badge">
+                                    <i className="fas fa-leaf"></i> Sustainable Living
+                                </div>
+                            </div>
+                        </div>
 
+                        {/* Contact Form Section */}
+                        <div className="col-lg-4 col-md-6 mb-4 mb-md-0">
+                            <div className="footer-contact">
+                                <h5 className="footer-title">Reach Out To Us</h5>
+                                <div className="footer-divider"></div>
+                                <form className="footer-form">
+                                    <div className="form-group">
+                                        <input 
+                                            type="email" 
+                                            className="form-control footer-input" 
+                                            placeholder="Your email address"
+                                            required
+                                        />
+                                    </div>
+                                    <div className="form-group">
+                                        <textarea 
+                                            className="form-control footer-input" 
+                                            rows="4" 
+                                            placeholder="Your message"
+                                            required
+                                        ></textarea>
+                                    </div>
+                                    <button type="submit" className="btn footer-btn">
+                                        Send Message <i className="fas fa-paper-plane ml-2"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+
+                        {/* Social Media Section */}
+                        <div className="col-lg-4 col-md-12">
+                            <div className="footer-social">
+                                <h5 className="footer-title">Connect With Us</h5>
+                                <div className="footer-divider"></div>
+                                <div className="social-icons">
+                                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="social-icon">
+                                        <i className="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="social-icon">
+                                        <i className="fab fa-instagram"></i>
+                                    </a>
+                                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="social-icon">
+                                        <i className="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="social-icon">
+                                        <i className="fab fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                                
+                                <div className="contact-info mt-4">
+                                    <p className="footer-text">
+                                        <i className="fas fa-map-marker-alt mr-2"></i> 
+                                        Nanyuki, Kenya
+                                    </p>
+                                    <p className="footer-text">
+                                        <i className="fas fa-phone mr-2"></i> 
+                                        +254 796299307
+                                    </p>
+                                    <p className="footer-text">
+                                        <i className="fas fa-envelope mr-2"></i> 
+                                        info@lupinscrest.com
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section>
-        <footer className="text-white text-center p-2 mt-2 bootom-footer">
-                <h5>Developed by Lupin &copy; 2025.All rights reserved</h5>
+
+            {/* Copyright Section */}
+            <div className="footer-copyright">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <p className="copyright-text">
+                                &copy; {new Date().getFullYear()} Lupin's Crest Luxury Real Estate. All rights reserved.
+                                <span className="developer-credit">
+                                    Developed by <strong>Lupin Technologies</strong>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </footer>
-    </div>
     );
-    }
-     
-   
-    export default Footer;
+};
+
+export default Footer;
